@@ -175,7 +175,7 @@ nav h1 a {
   min-height: auto;
   min-width: 100%;
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: linear-gradient(160deg,#02b3e4,#02ccba);
   font-family: 'Nunito Sans', sans-serif;
   font-size: 1.2em;
@@ -345,7 +345,7 @@ nav h1 a {
   #restaurants-list li {
     max-width: 42%;
   }
-  #restaurants-list li h1 {
+  #restaurants-list li h2 {
     height: 35px;
   }
 }
@@ -357,7 +357,7 @@ nav h1 a {
   #restaurants-list p {
     width: 100%;
   }  
-  #restaurants-list li h1 {
+  #restaurants-list li h2 {
     height: 41px;
   }
 
