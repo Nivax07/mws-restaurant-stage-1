@@ -7,7 +7,7 @@ In this project, a static webpage that lacks accessibility is given to be conver
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Dependecies](#code-dependecies)
+* [Dependencies](#code-dependencies)
 
 ## Instructions
 
