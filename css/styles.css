@@ -121,6 +121,11 @@ nav h1 a {
   line-height: 1;
   margin: 20px;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .filter-options select {
   background:white;
   border: 1px solid #fff;
@@ -132,7 +137,7 @@ nav h1 a {
   letter-spacing: 0;
   margin: 10px;
   padding: 0 20px;
-  width: 100%;
+  width: 40%;
   max-width: 300px;
 }
 
@@ -394,5 +399,8 @@ nav h1 a {
     bottom: 0;
     position: absolute;
     width: 45%;
+  }
+  .filter-options select {
+    width: 100%;
   }
 }

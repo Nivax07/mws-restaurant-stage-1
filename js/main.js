@@ -179,3 +179,17 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     self.markers.push(marker);
   });
 }
+
+/* Filter on Scroll Fix on the Top */
+window.onscroll = function() {filterTop()};
+
+var header = document.getElementById("filter");
+var sticky = header.offsetTop;
+
+function filterTop() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
